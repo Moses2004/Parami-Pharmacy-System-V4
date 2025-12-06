@@ -4,7 +4,7 @@ backend:
     build:
       commands:
         - npm ci
-        - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id d1xgb970axrxoi
+        - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id d31w70aqi10cy0
 frontend:
   phases:
     build:
