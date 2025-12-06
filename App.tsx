@@ -16,6 +16,7 @@ import Customers from './pages/Customers';
 import Settings from './pages/Settings';
 import PharmacyScanner from './components/PharmacyScanner';
 
+// Triggering AWS Rebuild
 // --- ADDED: Amplify Configuration ---
 import { Amplify } from 'aws-amplify';
 import outputs from './amplify_outputs.json'; // Note: Single dot ./
